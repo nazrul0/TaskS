@@ -18,6 +18,7 @@ public class Main {
 //        System.out.println("All data:");
 //        printData(tasksData);
 //
+//          printDataUsingStream(tasksData);
 //        System.out.println("Printing deadlines");
 //        printDeadlines(tasksData);
 
@@ -36,6 +37,7 @@ public class Main {
     }
 
     public static void printData(ArrayList<Task> tasksData) {
+        System.out.println("Printing data using loop");
         for (Task t : tasksData) {
             System.out.println(t);
         }
